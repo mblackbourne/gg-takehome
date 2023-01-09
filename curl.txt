@@ -1,0 +1,39 @@
+maximusblackbourne@Maximuss-MacBook-Pro gg-takehome % curl -v http://10.211.55.2:5000
+*   Trying 10.211.55.2:5000...
+* Connected to 10.211.55.2 (10.211.55.2) port 5000 (#0)
+> GET / HTTP/1.1
+> Host: 10.211.55.2:5000
+> User-Agent: curl/7.77.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Server: Werkzeug/2.2.2 Python/3.8.16
+< Date: Mon, 09 Jan 2023 22:07:57 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 18
+< Connection: close
+< 
+* Closing connection 0
+Hello GitGuardian!% 
+
+
+maximusblackbourne@Maximuss-MacBook-Pro gg-takehome % curl -v http://10.211.55.2:5000/pod-id
+*   Trying 10.211.55.2:5000...
+* Connected to 10.211.55.2 (10.211.55.2) port 5000 (#0)
+> GET /pod-id HTTP/1.1
+> Host: 10.211.55.2:5000
+> User-Agent: curl/7.77.0
+> Accept: */*
+> 
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Server: Werkzeug/2.2.2 Python/3.8.16
+< Date: Mon, 09 Jan 2023 22:08:49 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 11
+< Connection: close
+< 
+* Closing connection 0
+microk8s-vm% 
+
