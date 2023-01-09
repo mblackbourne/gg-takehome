@@ -23,5 +23,5 @@ Add a post gres container and a secrets yaml to protect the senitive contents of
 
     ○ Did you find the test interesting? If not, please tell us why
 
-        Yes! It gave me an opportunity to explor a little deeper into command script injections within a 
+        Yes! It gave me an opportunity to explore a little deeper into command script injections within a 
         kubernetes environment.  
